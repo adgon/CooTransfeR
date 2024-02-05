@@ -10,8 +10,8 @@ library(readxl)
 library (dplyr)
 library(readr)
 
-input <- "C:/Users/xxxx/xxxxx/xxxxxx" # <----Enter the path of the input folder 
-output <- "C:/Users/xxxxx/xxxxxxx/xxxxx"# <----Enter the path of the output folder 
+input <- "C:/Users/xxxx/xxxxx/xxxxxx" # <----Enter the path to the input folder 
+output <- "C:/Users/xxxxx/xxxxxxx/xxxxx"# <----Enter the path to the output folder 
 files <- list.files(input) # Lists al the files contained
 file_name<- gsub ("\\.txt", "", files) # Lists the names of the sequences without the .txt
 
